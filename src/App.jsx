@@ -6,7 +6,6 @@ import Education from './pages/Education'
 import Experience from './pages/Experience'
 import Publications from './pages/Publications'
 import Projects from './pages/Projects'
-import CV from './pages/CV'
 import Contact from './pages/Contact'
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/publications" element={<Publications />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/cv" element={<CV />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Layout>

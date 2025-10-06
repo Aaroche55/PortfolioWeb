@@ -14,7 +14,6 @@ const Layout = ({ children }) => {
     { name: 'Experience', href: '/experience' },
     { name: 'Publications', href: '/publications' },
     { name: 'Projects', href: '/projects' },
-    { name: 'CV', href: '/cv' },
     { name: 'Contact', href: '/contact' },
   ]
 
