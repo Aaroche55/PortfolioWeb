@@ -2,6 +2,29 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
+      title: 'Research Scientist Intern',
+      company: 'Dell Technologies',
+      location: 'Cork, Ireland',
+      type: 'Internship',
+      startDate: 'February 2026',
+      endDate: 'August 2026',
+      current: false,
+      description: 'Developed reinfoprcement learning algorithms for autonomous robotics applications.',
+      responsibilities: [
+        'Designed observation and action spaces for reinforcement learning algorithms in autonomous robotics.',
+        'Designed and implemented reward functions to optimise robotic behaviour and performance.',
+        'Collaborated on work involving the sim to real transfer of reinforcement learning algorithms for robotics applications.',
+        'Conducted research and development of reinforcement learning algorithms for autonomous robotics.',
+        'Communicated findings and progress to team members and stakeholders through presentations and reports.'
+      ],
+      technologies: ['Python', 'NVIDIA Isaac Lab', 'Reinforcement Learning'],
+      achievements: [
+        'Made useful findingsd regarding the maturity of NVIDIA Isaac Lab for reinforcement learning research in autonomous robotics.',
+        'Presented research findings at an intertnal event.'
+      ]
+    },
+    {
+      id: 2,
       title: 'Software Engineer Intern',
       company: 'Manna Drone Delivery',
       location: 'Dublin, Ireland',
@@ -17,7 +40,7 @@ const Experience = () => {
         'Communicated with stakeholders to clarify project requirements despite minimal initial information.',
         'Adapted to a startup environment, managing changing priorities and evolving requirements.'
       ],
-      technologies: ['Markdown', 'Google Meet', 'OneNote'],
+      technologies: ['Python', 'React', 'GitHub'],
       achievements: [
         'Maintained strict separation of development systems from production AWS databases, ensuring safety and reliability.',
         'Upheld high safety and regulatory standards in UI changes for safety-critical systems.',
@@ -26,7 +49,7 @@ const Experience = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: 'Research Assistant',
       company: 'Infant Research Center',
       location: 'Cork, Ireland',
@@ -51,7 +74,7 @@ const Experience = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: 'Tutor',
       company: 'First Tutors Ireland ',
       location: 'Wexford, Ireland',
@@ -207,15 +230,15 @@ const Experience = () => {
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li className="flex items-center">
                     <span className="w-1.5 h-1.5 bg-accent-600 rounded-full mr-2"></span>
-                    Academic research and publishing
+                    AI and machine learning applications
                   </li>
                   <li className="flex items-center">
                     <span className="w-1.5 h-1.5 bg-accent-600 rounded-full mr-2"></span>
-                    Algorithm design and optimization
+                    Algorithm design and optimisation
                   </li>
                   <li className="flex items-center">
                     <span className="w-1.5 h-1.5 bg-accent-600 rounded-full mr-2"></span>
-                    Data analysis and interpretation
+                    Robotics and autonomous systems
                   </li>
                 </ul>
               </div>
@@ -228,11 +251,11 @@ const Experience = () => {
                   </li>
                   <li className="flex items-center">
                     <span className="w-1.5 h-1.5 bg-green-600 rounded-full mr-2"></span>
-                    Machine learning
+                    AI & machine learning frameworks
                   </li>
                   <li className="flex items-center">
                     <span className="w-1.5 h-1.5 bg-green-600 rounded-full mr-2"></span>
-                    DevOps and automation
+                    Robotics simulation and training environments
                   </li>
                 </ul>
               </div>

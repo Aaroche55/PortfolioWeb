@@ -14,7 +14,7 @@ const Home = () => {
               Aaron Roche
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-2">
-              Software Engineering Student & Aspiring Researcher
+              Software Engineering Student & Research Scientist
             </p>
             <p className="text-lg text-gray-500 max-w-2xl mx-auto">
               Passionate about building innovative solutions and advancing technology through research. 
@@ -41,11 +41,11 @@ const Home = () => {
           {/* Quick Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="card text-center">
-              <div className="text-3xl font-bold text-primary-600 mb-2">2</div>
+              <div className="text-3xl font-bold text-primary-600 mb-2">3</div>
               <div className="text-gray-600">Internships Completed</div>
             </div>
             <div className="card text-center">
-              <div className="text-3xl font-bold text-primary-600 mb-2">3</div>
+              <div className="text-3xl font-bold text-primary-600 mb-2">4</div>
               <div className="text-gray-600">Projects Completed</div>
             </div>
             <div className="card text-center">
@@ -64,20 +64,20 @@ const Home = () => {
             <h2 className="section-title">Recent Work</h2>
             <div className="space-y-4">
               <div className="border-l-4 border-primary-500 pl-4">
+                <h3 className="font-semibold text-gray-900">Research Scientist Intern</h3>
+                <p className="text-gray-600 text-sm">AI & robotics research</p>
+              </div>
+              <div className="border-l-4 border-primary-500 pl-4">
+                <h3 className="font-semibold text-gray-900">Software Engineer Intern</h3>
+                <p className="text-gray-600 text-sm">Drone delivery software</p>
+              </div>
+              <div className="border-l-4 border-primary-500 pl-4">
                 <h3 className="font-semibold text-gray-900">Medical Research Assistant</h3>
-                <p className="text-gray-600 text-sm">Research center internship</p>
-              </div>
-              <div className="border-l-4 border-primary-500 pl-4">
-                <h3 className="font-semibold text-gray-900">Drone Delivery Software</h3>
-                <p className="text-gray-600 text-sm">Software engineering internship</p>
-              </div>
-              <div className="border-l-4 border-primary-500 pl-4">
-                <h3 className="font-semibold text-gray-900">Academic Projects</h3>
-                <p className="text-gray-600 text-sm">Full-stack development and algorithms</p>
+                <p className="text-gray-600 text-sm">Machine learning applications in healthcare</p>
               </div>
             </div>
-            <Link to="/projects" className="btn-primary mt-4 inline-block">
-              View All Projects
+            <Link to="/experience" className="btn-primary mt-4 inline-block">
+              View All Experience
             </Link>
           </div>
 

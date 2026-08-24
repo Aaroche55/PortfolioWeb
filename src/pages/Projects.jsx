@@ -6,9 +6,31 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Model Collapse Investigation",
+      description: "This was my final year project for my BSc in Software Engineering. The project involved investigating the phenomenon of model collapse in Super Tiny Language Models (STLMs) and exploring which methods of synthesising data for training STLMs were most likely to degrade the model's performance.",
+      category: "ai-machine-learning",
+      status: "Completed",
+      year: 2026,
+      technologies: ["Python", "MLX", "Hugging Face", "Ollama"],
+      features: [
+        "Wikipedia-based real text corpus and GPT-2 token analysis",
+        "Synthetic data generation using SmolLM, back-translation, and T5 paraphrasing",
+        "70/30 real-to-synthetic dataset construction for controlled comparisons",
+        "MLX language-model training with checkpoint evaluation and metrics reporting"
+      ],
+      github: "https://github.com/Aaroche55/Model-Collapse-Investigation-FYP",
+      demo: null,
+      image: "/api/placeholder/600/400",
+      highlights: [
+        "In-depth analysis of model collapse in STLMs",
+        "Comparison of synthetic data generation methods"
+      ]
+    },
+    {
+      id: 2,
       title: "AI Essay Classifier",
       description: "A machine learning system that analyzes essays and predicts if they are AI-generated with 95% accuracy. The system uses deep learning models trained on thousands of essays.",
-      category: "machine-learning",
+      category: "ai-machine-learning",
       status: "Completed",
       year: 2024,
       technologies: ["R", "Caret", "TidyR", "Ggplot2", "Shiny"],
@@ -27,7 +49,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: "Personal Portfolio Website",
       description: "A modern, responsive portfolio website built with React and Tailwind CSS to showcase my work, experience, and projects as a software engineering student and aspiring researcher.",
       category: "web-development",
@@ -49,7 +71,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: "Ticket DApp - Web3 Ticketing System",
       description: "A decentralized application (DApp) for a ticketing system deployed on the Ethereum Holesky testnet. Features an ERC-20 token implementation with buy and return ticket functionality, smart contracts, and a complete front-end interface.",
       category: "blockchain",
@@ -74,9 +96,10 @@ const Projects = () => {
 
   const categories = [
     { id: 'all', name: 'All Projects', count: projects.length },
-    { id: 'machine-learning', name: 'Machine Learning', count: projects.filter(p => p.category === 'machine-learning').length },
+    { id: 'ai-machine-learning', name: 'AI & Machine Learning', count: projects.filter(p => p.category === 'ai-machine-learning').length },
     { id: 'web-development', name: 'Web Development', count: projects.filter(p => p.category === 'web-development').length },
     { id: 'blockchain', name: 'Blockchain', count: projects.filter(p => p.category === 'blockchain').length }
+
   ]
 
   const filteredProjects = selectedCategory === 'all' 
@@ -98,7 +121,7 @@ const Projects = () => {
 
   const getCategoryColor = (category) => {
     switch (category) {
-      case 'machine-learning':
+      case 'ai-machine-learning':
         return 'bg-purple-100 text-purple-800'
       case 'web-development':
         return 'bg-blue-100 text-blue-800'

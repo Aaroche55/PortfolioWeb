@@ -8,38 +8,29 @@ const About = () => {
     { name: 'R', level: 90, category: 'Programming Languages' },
     { name: 'Scala', level: 65, category: 'Programming Languages' },
     { name: 'Haskell', level: 60, category: 'Programming Languages' },
-    { name: 'React', level: 80, category: 'Frontend' },
-    { name: 'Node.js', level: 80, category: 'Backend' },
-    { name: 'Flask', level: 65, category: 'Backend' },
-    { name: 'Spring Boot', level: 75, category: 'Backend' },
-    { name: 'PostgreSQL', level: 85, category: 'Database' },
-    { name: 'MySQL', level: 75, category: 'Database' },
-    { name: 'SQLite', level: 75, category: 'Database' },
-    { name: 'TensorFlow', level: 70, category: 'Machine Learning' },
-    { name: 'PyTorch', level: 65, category: 'Machine Learning' },
-    { name: 'Caret', level: 90, category: 'Machine Learning' },
-    { name: 'Scikit-learn', level: 85, category: 'Machine Learning' },
-    { name: 'Tidyverse', level: 80, category: 'Machine Learning' },
-    { name: 'Ggplot2', level: 90, category: 'Machine Learning' },
-    { name: 'Dplyr', level: 75, category: 'Machine Learning' },
-    { name: 'AWS', level: 70, category: 'Cloud' },
+    { name: 'Reinforcement Learning', level: 80, category: 'AI & Machine Learning' },
+    { name: 'Computer Vision', level: 55, category: 'AI & Machine Learning' },
+    { name: 'Deep Learning', level: 65, category: 'AI & Machine Learning' },
+    { name: 'Language Modeling', level: 70, category: 'AI & Machine Learning' },
+    { name: 'NVIDIA Isaac Lab', level: 70, category: 'Robotics' },
+    { name: 'ROS', level: 50, category: 'Robotics' },
     { name: 'Docker', level: 75, category: 'DevOps' },
     { name: 'GitHub Actions', level: 70, category: 'DevOps' },
-    { name: 'Gitlab CI/CD', level: 70, category: 'DevOps' },
-    { name: 'Git', level: 90, category: 'Version Control' }
+    { name: 'CI/CD', level: 70, category: 'DevOps' },
+    { name: 'Git', level: 80, category: 'Version Control' }
   ]
 
   const interests = [
-    'Machine Learning & AI',
+    'AI & Machine Learning',
     'Research & Innovation',
     'Software Architecture',
     'Open Source Projects',
-    'Web Development',
+    'Robotics & Autonomous Systems',
     'Data Science',
     'Quantum Computing',
     'Ethical Hacking',
-    'Blockchain Technology',
-    'Cybersecurity'
+    'Cybersecurity',
+    'AI Ethics'
   ]
 
   const groupedSkills = skills.reduce((acc, skill) => {
@@ -67,8 +58,8 @@ const About = () => {
                     development and research applications.
                   </p>
                   <p className="text-gray-700 mb-4">
-                    Through my internships at a medical research center and a drone delivery company, 
-                    I've gained valuable experience in diverse domains - from medical data analysis and machine learning to 
+                    Through my internships, 
+                    I've gained valuable experience in diverse domains; from medical data analysis and machine learning to 
                     autonomous systems development. I believe in the power of clean, maintainable code 
                     and the importance of continuous learning in the rapidly evolving tech landscape.
                   </p>

@@ -21,13 +21,18 @@ const Education = () => {
         'Project Management',
         'Computer Networks',
         'Operating Systems',
-        'Machine Learning',
         'Discrete Mathematics',
         'Blockchain Technology',
         'Cybersecurity',
+        'Cloud Computing',
+        'DevOps Practices',
+        'Software Architecture',
+        'AI & Machine Learning',
+        'Imbedded Systems',
+        'Research Methodologies',
       ],
       achievements: [
-        'Completed 2 industry internships',
+        'Completed 3 industry internships',
         'Participated in hackathons and coding competitions'
       ]
     }
